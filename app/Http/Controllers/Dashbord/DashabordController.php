@@ -14,7 +14,7 @@ class DashabordController extends Controller
      */
     public function index()
     {
-        return view('Pages.Dashboard.dashboard');
+        return view('Pages.Dashboard.index');
     }
 
     /**
