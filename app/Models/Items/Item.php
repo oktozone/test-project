@@ -13,6 +13,7 @@ class Item extends Model
         'name',
         'description',
         'price'
+        
     ];
 
     public function getByName(string $name)
