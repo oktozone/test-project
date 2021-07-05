@@ -17,4 +17,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [DashabordController::class, "index"])->name('index');
 Route::get('item', [ItemController::class, "index"])->name('item');
+Route::get('item/create', [ItemController::class, "create"])->name('item.create');
 
